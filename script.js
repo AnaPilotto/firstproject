@@ -9,4 +9,16 @@ function toggleMode() {
   } else {
     img.setAttribute("src", "./assets/avatar.png")
   }
+
+  if (html.classList.contains("light")) {
+    img.setAttribute(
+      "alt",
+      "Uma foto do rosto de Ana Pilotto, com cabelo roxo, com uma maquiagem leve e sorrindo."
+    )
+  } else {
+    img.setAttribute(
+      "alt",
+      "Uma foto do rosto de Ana Pilotto, com cabelo rosa, com uma maquiagem leve e sorrindo."
+    )
+  }
 }
